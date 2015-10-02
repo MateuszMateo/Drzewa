@@ -8,7 +8,7 @@ using namespace std;
 
     if(n<2)return 1;
 
-    return n* silnia(n-1); }
+    return (n* silnia(n-1))%1000000007; }
 
 int main()
 {
